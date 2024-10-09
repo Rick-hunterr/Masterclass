@@ -3,8 +3,8 @@ window.addEventListener("scroll",function(){
     header.classList.toggle("abajo",window.scrollY>0)
 });
 window.addEventListener("scroll", function(){
-    var Comentar = document.querySelector(".Comentario");
-    Comentar.classList.toggle("Comenton", window.scrollY > 2400)
+    var Comenta = document.querySelector(".Comentario");
+    Comenta.classList.toggle("Comenton", window.scrollY > 1500)
 });
 function mostrar() {
   const settings = document.querySelector('.Settings');
