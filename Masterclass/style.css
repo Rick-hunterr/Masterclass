@@ -563,8 +563,9 @@ header.abajo .Material .L{
 .Div5 img{
     width: 20px;
     opacity: 0;
-    transition: 1.5s;
+    transition: 0.5s;
 }
+
 .Comentario{
     transition: 1.5s;
 }
@@ -579,13 +580,13 @@ header.abajo .Material .L{
 }
 .Comenton img{
     width: 300px;
-    transition: 1.5s;
+    transition: 0.5s;
     opacity: 1;
     animation: crecer2 5s ease-out infinite ;
     filter: drop-shadow(15px 20px 25px rgb(0, 247, 255));
 }
 .Comenton p{
-    transition: 1.5s;
+    transition: 0.5s;
     position: absolute;
     margin-bottom: 25%;
     color: #fff;
@@ -594,7 +595,7 @@ header.abajo .Material .L{
 div.Comenton{
     width: 600px;
     height: 600px;
-    transition: 1.5s;
+    transition: 0.5s;
     background-color: #292929ab;
     border-radius: 100%;
 }
@@ -633,6 +634,34 @@ div.Comenton{
       }
     100% {
         margin-bottom: -10%;
+    }
+}
+@keyframes parpadeorojo {
+    0% {
+        margin-bottom: -10%;
+        filter: drop-shadow(15px 20px 25px rgb(255, 0, 0));
+    }
+    50% {
+        margin-bottom: 8%;
+        filter: drop-shadow(15px 20px 25px rgb(255, 0, 0));
+      }
+    100% {
+        margin-bottom: -10%;
+        filter: drop-shadow(15px 20px 25px rgb(0, 247, 255));
+    }
+}
+@keyframes parpadeoverde {
+    0% {
+        margin-bottom: -10%;
+        filter: drop-shadow(15px 20px 25px rgb(0, 255, 64));
+    }
+    50% {
+        margin-bottom: 8%;
+        filter: drop-shadow(15px 20px 25px rgb(0, 255, 64));
+      }
+    100% {
+        margin-bottom: -10%;
+        filter: drop-shadow(15px 20px 25px rgb(0, 247, 255));
     }
 }
 #btnPregunta1{
@@ -1048,7 +1077,7 @@ header.abajo .Material .L{
 .Div5 img{
     width: 20px;
     opacity: 0;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 .Comentario{
     transition: 1.5s;
@@ -1063,7 +1092,7 @@ header.abajo .Material .L{
 }
 .Comenton img{
     width: 200px;
-    transition: 1.5s;
+    transition: 0.5s;
     opacity: 1;
     animation: crecer2 5s ease-out infinite ;
     filter: drop-shadow(15px 20px 25px rgb(0, 247, 255));
@@ -1080,7 +1109,7 @@ div.Comenton{
     margin-bottom: 25%;
     width: 400px;
     height: 400px;
-    transition: 1.5s;
+    transition: 0.5s;
     background-color: #292929ab;
     border-radius: 100%;
 }
@@ -1109,7 +1138,7 @@ div.Comenton{
     display: none;
     position: absolute;
     margin-top: 20%;
-    margin-right: 35%;
+    margin-right: 45%;
     opacity: 1;
     background-color: black;
     color: #fff;
@@ -1126,7 +1155,7 @@ div.Comenton{
     display: none;
     position: absolute;
     margin-top: 20%;
-    margin-left: 35%;
+    margin-left: 45%;
     opacity: 1;
     background-color: black;
     color: #fff;
