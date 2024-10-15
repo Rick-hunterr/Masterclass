@@ -19,7 +19,6 @@ a {
     text-decoration: none;
     color: #ffffff;
   }
-
 header{
     position: fixed;
     top: 0;
@@ -111,7 +110,7 @@ header.abajo .Material li a{
     color: #000000;
 }
 header.abajo .Material li a:hover{
-    background-color: #131313f1;
+    background-color: #131313e3;
     color: #ffffff;
 }
 header.abajo .Material .L{
@@ -304,8 +303,7 @@ header.abajo .Material .L{
   .Settings .value svg {
     width: 15px
   }
-
-  /*Curso*/
+   /*Curso*/
 
 .Curso {
     position: absolute;
@@ -364,11 +362,21 @@ header.abajo .Material .L{
   }
   
 /*Zona 1*/
-.Div1 {
+.Div1 > img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 10%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Div1{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('Recursos/earth.gif');
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -376,10 +384,12 @@ header.abajo .Material .L{
     align-items: center;
 }
 .Div1 > h1{
+    position: absolute;
     color: #fff;
     font-weight: 800;
     font-family: helvetica;
     font-size: 9rem;
+    
 }
 /*zona 2*/
 .Div2 {
@@ -446,17 +456,18 @@ header.abajo .Material .L{
     padding: 15px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Helvetica';
   }
   
   .Div2-2 p::first-letter {
-    font-size: 24px;
-    color: #ff9900;
+    font-size: 34px;
+    color: #b700cf;
   }
 /*Zona 3*/
 .Div3 {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background-image: url('Recursos/cloud-glitter.png');
     background-size: cover;
     background-position: center center;
@@ -1017,11 +1028,11 @@ header.abajo .Material .L{
     width: 100%;
 }
 .Div2{
-    height: 120vh;
+    height: 130vh;
     width: 100%;
 }
 .Div3{
-    height: 100vh;
+    height: 130vh;
     width: 80%;
 }
 

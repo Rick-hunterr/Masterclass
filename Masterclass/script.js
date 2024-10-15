@@ -5,12 +5,36 @@ window.addEventListener("scroll", function() {
 
 function mostrar() {
   const settings = document.querySelector('.Settings');
+  const Curso = document.querySelector('.Curso');
   if (settings.style.display === 'flex') {
+    Curso.style.display = 'none';
       settings.style.display = 'none';
   } else {
       settings.style.display = 'flex';
   }
 }
+
+//mostrar cursos
+function mostrarCurso() {
+    const Curso = document.querySelector('.Curso');
+    if (Curso.style.display === 'flex') {
+        Curso.style.display = 'none';
+    } else {
+        Curso.style.display = 'flex';
+    }
+  }
+
+  //Ocultar
+  function Ocultar() {
+    const checkbox = document.querySelector('.toggle-checkbox');
+    const settings = document.querySelector('.Settings');
+    const Curso = document.querySelector('.Curso');
+    if (Curso.style.display === 'flex' || settings.style.display === 'flex') {
+        Curso.style.display = 'none';
+        settings.style.display = 'none';
+        checkbox.checked = false;
+    }
+  }
 
 // Programación código trivia
 let puntos = 0;
