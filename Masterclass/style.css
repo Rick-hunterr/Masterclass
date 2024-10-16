@@ -738,10 +738,6 @@ div.Comenton{
     transition: 0.5s;
     box-shadow: 0px 2px 5px 1px rgb(255, 255, 255);
 }
-#btnJuego:hover, #btnPregunta1:hover, #btnPregunta2:hover{
-    box-shadow: 0px 2px 5px 1px rgb(1, 225, 255);
-
-}
 @keyframes crecer2 {
     0% {
         margin-bottom: -10%;
