@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nosotros.css">
+    <script src="script.js"></script>
+    
+    <link rel="icon" href="Recursos/Robott.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>CyberExplorer</title>
+</head>
+<body>
+    <header>
+        <div class="Encabezado">
+            <a href="index.html" class="Logo">CyberExplorer</a>
+            <nav>
+                <ul class="Desplegable">
+                    <li class="M">
+                        <a href="passcheck.html">Herramientas</a>
+                        <ul class="Material">
+                            <li class="L"><a>Password Check</a></li>
+                        </ul>
+                    </li>
+                    <li class="M">
+                        <a href="#">Curso</a>
+                        <ul class="Material">
+                            <li class="L"><a href="curso.html">Phishing</a></li>
+                            <li><a href="modulo2.html">Virus y Hackers</a></li>
+                            <li><a href="modulo3.html">Buenas Prácticas</a></li>
+                            <li><a href="modulo4.html">Módulo 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="otros"><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <input class="toggle-checkbox" id="toggle" type="checkbox" onclick="mostrar();"/>
+        <label class="hamburger" for="toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </label>
+        <div class="Settings">
+            <button class="value"><a href="passcheck.html">Herramientas</a></button>
+            <button class="value" onclick="mostrarCurso();">Curso</button>
+            <button class="value"><a href="index.html">Explorar</a></button>
+            <button class="value"><a href="nosotros.html">Nosotros</a></button>
+        </div>
+        <div class="Curso">
+            <button class="value"><a href="curso.html">Phishing</a></button>
+            <button class="value"><a href="modulo2.html">Virus y Hackers</a></button>
+            <button class="value"><a href="modulo3.html">Buenas Prácticas</a></button>
+            <button class="value"><a href="modulo4.html">Módulo 4</a></button>
+        </div>
+    </header>
+    
+    <section class="Div1" onclick="Ocultar();">
+        <h1>NOSOTROS</h1>
+        <div class="Comenton">
+            <img src="Recursos/rbt.png" alt=""></div>
+    </section>
+    
+    <section class="Div2" onclick="Ocultar();">
+        <h1>¿Quiénes Somos?</h1>
+        <p>Somos un grupo de estudiantes: Pablo Santellan, Nicolás Ruarte, Yala Fabio Cabrera y Valentín Sarraf, del 6°E de programación del Colegio Ing. Carlos Cassaffousth. Hemos desarrollado este proyecto como una página educativa dedicada a la ciberseguridad.</p>
+        <p>Nuestra misión es proporcionar herramientas útiles para la educación en ciberseguridad, incluyendo herramientas para cifrar contraseñas y medir su fortaleza.</p>
+        <p>La página cuenta con cuatro módulos que te permitirán formarte sobre temas cruciales como los virus, malware, phishing y buenas prácticas para protegerte en el entorno digital.</p>
+        <p>Además, hemos desarrollado un juego estilo RPG para enseñar sobre la ciberseguridad de una manera creativa y entretenida.</p>
+        <br>
+        <h1>¡GRACIAS!</h1>
+    </section>
+    
+</body>
+<footer class="pie-pagina"  onclick="Ocultar();">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="Recursos/Logo.png" alt="Logo ipet 247 version Pablo">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Somos un grupo de alumnos de la especialidad en programación y hemos desarrollado esta página web con el objetivo de concientizar y educar sobre la ciberseguridad.</p>
+            <p>Nuestro propósito es lograr que los alumnos de diversas instituciones y cualquier persona interesada pueda informarse a través de nuestra plataforma educativa.</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2024 <b>RickHunter</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+</html>
