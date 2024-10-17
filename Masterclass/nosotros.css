@@ -444,7 +444,6 @@ header.abajo .Material .L{
     height: 100vh;
 }
 .Comenton img{
-    margin-top: 50vh;
     position: absolute;
     width: 100px;
     transition: 0.5s;

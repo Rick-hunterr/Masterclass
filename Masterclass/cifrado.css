@@ -5,13 +5,13 @@
     --borde-redondo: 4px;
 }
 
-* {
-    font-family: 'Source Code Pro', monospace;
-
-}
 *{
     margin: 0;
     padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 body {
     background-color: #000000;
@@ -421,8 +421,8 @@ div{
 #password {
     background-color:#292b36;
     margin: 10px 0 0;
-    width: 60%;
-    padding: 10px 30px 30px 10px;
+    width: 80%;
+    padding: 10px 10px 30px 10px;
     color: white;
     border-radius: 12px;
 }
@@ -461,7 +461,7 @@ input[type='range']::-webkit-slider-thumb {
     width:10px;
 }
 
-button {
+.b {
     background-color: #1a1a1a;
     border: 2px solid #00FF41;
     color: #00FF41;
@@ -470,18 +470,18 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 15px 2px;
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 255, 65, 0.5); 
     transition: background-color 0.3s, transform 0.2s;
 }
-button:hover {
+.b:hover {
     background-color: #00FF41;
     color: #000;
     transform: scale(1.05);
 }
-button:active {
+.b:active {
     transform: scale(0.95);
 }
 
@@ -500,26 +500,6 @@ button:active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     backdrop-filter: blur(10px);
-  }
-  
-  .Div2 h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 80px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .Div2 p {
-    margin: 0 20% 0 20%;
-    color: #fff;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    text-align: center;
-    line-height: 1.5;
   }
 /*Diseño Pie de pagina*/
 
